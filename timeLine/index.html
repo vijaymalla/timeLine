@@ -1,0 +1,89 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Time Line</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+    <!-- Custom styles for Timeline  -->
+    <link href="css/timeline.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">User Name</a>
+      <input class="form-control form-control-dark w-100" type="text" placeholder="Search dosen't have any functionality Yet !" aria-label="Search">
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+          <div class="sidebar-sticky">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <div class="form-group">
+                    <input id ='date-time' type="date" name="fullDate" class="form-control">
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="form-group">
+                  <select id="input_dropdown" class="form-control">
+                    <option selected>Choose Category...</option>
+                    <option>Communication</option>
+                    <option>Work</option>
+                    <option>Important</option>
+                    <option>Physical Activity</option>
+                    <option>Travel</option>
+                  </select>
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="form-group">
+                  <input id = 'title-name' type="text" class="form-control" placeholder="Title">
+                </div>
+              </li>
+              <li class="nav-item">
+                <div class="form-group">
+                   <textarea class="form-control" id="input_description" rows="3" placeholder="Add more Description"></textarea>
+                 </div>
+              </li>
+
+            </ul>
+            <button type="submit" class="btn btn-primary" id='btn_submit'>Submit</button>
+          </div>
+        </nav>
+
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+
+          <section id="cd-timeline" class="cd-container" background>
+
+          </section> <!-- cd-timeline -->
+        </main>
+      </div>
+    </div>
+    <script src="timeLine.js"></script>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+
+<!--
+<div class="cd-timeline-block" id = "block-1" >
+  <div class="cd-timeline-img cd-picture">
+    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-picture.svg" alt="Picture"></div>
+    <div class="cd-timeline-content"><h1>%cat%</h1><h2>%title%</h2><p>%description%</p>
+      <button type="button" class="btn btn-danger">Delete</button>
+      <span class="cd-date">%dateTime%</span>
+    </div>
+  </div>';
+-->
