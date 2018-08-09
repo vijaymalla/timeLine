@@ -19,8 +19,8 @@ A simple Front end app based on html, css, and JavaScript. Time line displays li
 
 
 ## Some screen shorts
-![Image_1](1.png)
-![Image_2](2.png)
-![Image_3](3.png)
-![Image_4](4.png)
+![Image_1](https://github.com/vijaymalla/timeLine/blob/master/timeLine/1.PNG)
+![Image_2](https://github.com/vijaymalla/timeLine/blob/master/timeLine/2.PNG)
+![Image_3](https://github.com/vijaymalla/timeLine/blob/master/timeLine/3.PNG)
+![Image_4](https://github.com/vijaymalla/timeLine/blob/master/timeLine/4.PNG)
 
