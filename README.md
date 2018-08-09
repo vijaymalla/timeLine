@@ -16,6 +16,8 @@ A simple Front end app based on html, css, and JavaScript. Time line displays li
 2. Delete functionality
 3. Search functionality
 4. Connect to database 
+5. Clear fields
+6. Edit Fields
 
 
 ## Some screen shorts
