@@ -10,6 +10,8 @@ A simple Front end app based on html, css, and JavaScript. Time line displays li
 ## functionality
 1. Enter the fields 
 2. View the details on right side of the page in an UI 
+3. Checks if Fields are empty
+
 
 ## upcomming functionality
 1. Add ID to all entry fields 
